@@ -1,0 +1,123 @@
+<html>
+	<head>
+	<title></title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<style>
+	body{
+	margin,padding:0;
+	background-image:url(images/bg-img.jpg);
+	background-size:cover;
+	background-position:center;
+	}
+	.order-box{
+		width:340px;
+		height:400px;
+		background:rgba(0,0,0,0.5);
+		color:#f0f0f0;
+		top:50%;
+		left:50%;
+		position:absolute;
+		transform:translate(-50%,-50%);
+		box-sizing:border-box;
+		padding:20px;
+		border-radius:10px;
+	}
+	h1{
+		margin:15px;
+		padding:0px 20px;
+		text-align:center;
+		font-size:22px;
+	}
+	.order-box label{
+		margin-left:0;
+		padding:2px;
+		font-weight:bold;
+	}
+	.order-box input{
+		width:100%;
+		margin-left:0px;
+		padding:0;
+		font-weight:bold;
+	}
+	.order-box input[type="text"],input[type="email"],input[type="address"]{
+		border:none;
+		border-bottom: 1px solid #f0f0f0;
+		background:transparent;
+		outline:none;
+		color:#f0f0f0;
+	}
+	.order-box input[type="submit"]{
+		margin:8px;
+		border:none;
+		outline:none;
+		background-color:#444445;
+		color:#f0f0f0;
+		padding:8px;
+		font-size:18px;
+		border-radius:20px;
+	}
+	.order-box input[type="submit"]:hover{
+		color:black;
+		cursor:pointer;
+		background:white;
+	}
+	</style>
+	</head>
+	<body>
+	<div class="order-box">
+	<h1>Order</h1>
+	<form name="myform">
+	<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-3">
+		<label>Name </label>
+		</div>
+		<div class="col-sm-9">
+		<input type="text" name="name">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-3">
+		<label>Mobile</label>
+		</div>
+		<div class="col-sm-9">
+		<input type="text" name="phone no">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-3">
+		<label>Email </label>
+		</div>
+		<div class="col-sm-9">
+		<input type="email" name="email">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-3">
+		<label>Order</label>
+		</div>
+		<div class="col-sm-9">
+		<input type="text" name="order">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-3">
+		<label>Address</label>
+		</div>
+		<div class="col-sm-9">
+		<input type="address" name="address">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12 text-center">
+		<input type="submit" name="order" value="Order">
+		</div>
+	</div>
+	</div>
+	</form>
+	</div>
+	</body>
+</html>

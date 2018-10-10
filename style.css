@@ -1,0 +1,74 @@
+
+#headings {
+	border-top: 2px solid #828282;
+}
+
+hr{
+	width: 120px;
+}
+
+#sub-headings{
+	border-bottom: 2px solid #828282;
+}
+
+h3{
+	text-align:center;
+}
+
+#menu, #gallery, #services, #contact{
+	margin:20px 2px;
+}
+
+.col-md-3, .col-md-4{
+	padding:10px;
+	margin:10px 0px;
+}
+
+.box{
+	width:20%;
+	height:200px;
+	margin:auto;
+	overflow:hidden;
+	position:relative;
+}
+.box img{
+	transition:all 2s ease-in-out;
+}
+.box:hover img{
+	transform:scale(1.5) rotatex(-10deg);
+}
+
+.social-icon{
+  padding: 0;
+  float:right;
+}
+.social-icon li {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+}
+.social-icon li a {
+  background: #f0f0f0;
+  border-radius: 50%;
+  color: #5C5C5C;
+  font-size: 16px;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  margin-top: 12px;
+  margin-right: 12px;
+  top: 0;
+  position: relative;
+  padding: 0;
+}
+.social-icon li a:hover {
+  background: #3dc6f3;
+  top: 5px;
+}
+.out{
+  width:80%;
+  margin:auto;
+}
